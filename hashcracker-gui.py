@@ -6,6 +6,7 @@ gui = Tk()
 def run_cracker(hashtocrack,al,wordlist):
     
     def md5():
+        
         f = open(wordlist, "r", errors="ignore")
         for x in f:
             x = str(x).strip()
